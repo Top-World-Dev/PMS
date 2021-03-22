@@ -1,0 +1,51 @@
+{
+  "name": "skel",
+  "private": true,
+  "scripts": {
+    "start": "meteor run --port 5800",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "@babel/runtime": "^7.10.5",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "animate.css": "^4.1.0",
+    "bcrypt": "^5.0.0",
+    "bootstrap-vue": "^2.1.0",
+    "core-js": "^3.6.5",
+    "meteor-node-stubs": "^1.0.1",
+    "moment": "^2.27.0",
+    "mutationobserver-shim": "^0.3.7",
+    "qrcode-generator": "^1.4.4",
+    "register-service-worker": "^1.7.1",
+    "rxjs": "^6.6.2",
+    "simpl-schema": "^1.10.1",
+    "underscore": "^1.11.0",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.21.0",
+    "vue-meteor-tracker": "^2.0.0-beta.5",
+    "vue-router": "^3.2.0",
+    "vue-sweetalert2": "^3.0.6",
+    "vuex": "^3.4.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "src/client.js",
+      "server": "src/server.js"
+    },
+    "testModule": "tests/main.js"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}

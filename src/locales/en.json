@@ -1,0 +1,99 @@
+{
+  "auth": {
+    "error_403": "User not available at this moment",
+    "login": {
+      "header": {
+        "title": "Login"
+      },
+      "form": {
+        "username": "Email or Username",
+        "password": "Password",
+        "submit": "Login"
+      }
+    }
+  },
+  "doctors": {
+    "create": {
+      "buttons": {
+        "create": "Add New Doctor",
+        "save": "Save",
+        "reset": "Reset"
+      },
+      "form": {
+        "title": "Title",
+        "first_name": "First Name",
+        "last_name": "Last Name",
+        "age": "Age"
+      },
+      "title": "Add a new doctor"
+    },
+    "data_table": {
+      "header": {
+        "fullname": "Full Name",
+        "actions": "Actions"
+      }
+    },
+    "home": {
+      "title": "Doctors"
+    },
+    "messages": {
+      "create_error": "Could not create doctor profile"
+    }
+  },
+  "language": {
+    "title": "Language"
+  },
+  "messages": {
+    "success": "Action Successful"
+  },
+  "message": "hello i18n !!",
+  "navigation": {
+    "chambers": {
+      "index": "Chambers"
+    },
+    "dashboard": {
+      "index": "Dashboard"
+    },
+    "doctors": {
+      "index": "Doctors"
+    },
+    "home": {
+      "index": "Home"
+    },
+    "index": "Visit Site",
+    "language": {
+      "index": "Language"
+    },
+    "patients": {
+      "index": "Patients",
+      "registration": "Registration"
+    },
+    "user": {
+      "index": "User",
+      "profile": "Profile",
+      "sign_out": "Sign Out"
+    }
+  },
+  "token": {
+    "create": "Token Registration",
+    "patient_name": "Patient Name",
+    "patient_mobile": "Patient Mobile",
+    "save": "Save",
+    "create_success": "A serial has been placed",
+    "last_token": "Last Token",
+    "error_400": "Input parameters are not correct",
+    "error_undefined": "Unknown error",
+    "button": {
+      "confirm": "Save QR code",
+      "cancel": "Dismiss"
+    }
+  },
+  "table": {
+    "patient": {
+      "name": "PATIENT NAME",
+      "phone": "PHONE",
+      "token": "TOKEN",
+      "date": "DATE"
+    }
+  }
+}

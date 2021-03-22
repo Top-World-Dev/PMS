@@ -1,0 +1,95 @@
+{
+  "auth": {
+    "error_403": "এই মুহুর্তে ব্যবহারকারী উপলব্ধ নয়",
+    "login": {
+      "header": {
+        "title": "লগইন করুন "
+      },
+      "form": {
+        "username": "ইমেইল অথবা  ইউসারনাম প্রবেশ করুন",
+        "password": "পাসওয়ার্ড প্রদান করুন",
+        "submit": "প্রবেশ করুন"
+      }
+    }
+  },
+  "doctors": {
+    "create": {
+      "buttons": {
+        "create": "নতুন ডাক্তার যুক্ত করুন",
+        "save": "সংরক্ষণ করুন",
+        "reset": "পুনরায় বসান"
+      },
+      "form": {
+        "title": "উপাধি",
+        "first_name": "নামের শেষাংশ",
+        "last_name": "নামের শেষাংশ",
+        "age": "বয়স"
+      },
+      "title": "নতুন ডাক্তার যুক্ত করুন"
+    },
+    "data_table": {
+      "header": {
+        "fullname": "সম্পূর্ণ নাম",
+        "actions": "বিকল্পগুলি"
+      }
+    },
+    "home": {
+      "title": "ডাক্তার"
+    }
+  },
+  "message": "hello i18n !!",
+  "messages": {
+    "success": "আপনার অনুরোধটি সফলভাবে গৃহীত হয়েছে"
+  },
+  "language": {
+    "title": "ভাষা"
+  },
+  "navigation": {
+    "chambers": {
+      "index": "চেম্বার"
+    },
+    "dashboard": {
+      "index": "ড্যাশবোর্ড"
+    },
+    "doctors": {
+      "index": "চিকিৎসক ব্যবস্থাপনা"
+    },
+    "home": {
+      "index": "হোম"
+    },
+    "index": "সাইট দেখুন",
+    "language": {
+      "index": "ভাষা"
+    },
+    "patients": {
+      "index": "রোগী ব্যবস্থাপনা",
+      "registration": "রোগীর সিরিয়াল"
+    },
+    "user": {
+      "index": "সেটিংসমূহ",
+      "profile": "প্রোফাইল",
+      "sign_out": "সাইন আউট"
+    }
+  },
+  "table": {
+    "patient": {
+      "name": "রোগীর নাম",
+      "phone": "মোবাইল নম্বর",
+      "token": "সিরিয়াল",
+      "date": "তারিখ"
+    }
+  },
+  "token": {
+    "create": "সিরিয়াল দিন",
+    "patient_name": "রোগীর নাম",
+    "patient_mobile": "রোগীর মোবাইল নম্বর",
+    "save": "সংরক্ষণ করুন",
+    "create_success": "সফলভাবে সংরক্ষিত হয়েছে",
+    "last_token": "সর্বশেষ সিরিয়াল",
+    "error_undefined": "আমরা অনুরোধটি বুঝতে পারিনি ",
+    "button": {
+      "confirm": "কিউআর কোড সংরক্ষণ করুন",
+      "cancel": "বন্ধ করুন "
+    }
+  }
+}
